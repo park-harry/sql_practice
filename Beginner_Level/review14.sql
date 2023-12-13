@@ -17,3 +17,4 @@ select ename,trunc((sysdate-birth)/365)as age
 from emp18
 where mod(trunc((sysdate-birth)/365),2)=0
 order by age desc;
+
