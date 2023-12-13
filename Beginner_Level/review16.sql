@@ -71,4 +71,4 @@ select ename, hiredate
 select ename, hiredate
 from emp 
 where hiredate between to_date('1981/1/1','RRRR/MM/DD') and 
-                        to_date('1981/12/31','RRRR/MM/DD')+1
+                        to_date('1981/12/31','RRRR/MM/DD')+1;
